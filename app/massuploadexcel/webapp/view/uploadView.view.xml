@@ -5,7 +5,16 @@
     <Page id="page" title="{i18n>title}">
         <content>
             <unified2:FileUploader id="FileUploder" width="40rem" change="onFileChange"></unified2:FileUploader>
-            <Button id="UploadButton" text="Upload Students" press="onUploadStudents"></Button>
+            <Button id="UploadButton" text="Upload (only in local)" press="onUploadStudents"></Button>
+
+            <VBox id="_IDGenVBox1" class="sapUiSmallMarginTop">
+                <Button id="_IDGenButton2"
+                    text="Upload (local + hana + afterdeploy)"
+                    type="Accept"
+                    press="onUploadusingContext"
+                    class="sapUiSmallMarginTop"
+                />
+            </VBox>
         </content>
     </Page>
 </mvc:View>
