@@ -1,0 +1,11 @@
+<mvc:View xmlns:unified2="sap.ui.unified" controllerName="massuploadexcel.controller.uploadView"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    >
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <unified2:FileUploader id="FileUploder" width="40rem" change="onFileChange"></unified2:FileUploader>
+            <Button id="UploadButton" text="Upload Students" press="onUploadStudents"></Button>
+        </content>
+    </Page>
+</mvc:View>

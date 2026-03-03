@@ -1,0 +1,22 @@
+{
+  "Component.js.map": 1772535754306,
+  "manifest.json": 1772514735949,
+  "controller/uploadView.controller.js": 1772534954503,
+  "controller/App.controller.js": 1772514735953,
+  "model/models.js": 1772514735953,
+  "Component.js": 1772514735949,
+  "controller/uploadView-dbg.controller.js": 1772534954503,
+  "controller/uploadView.controller.js.map": 1772535754310,
+  "controller/App-dbg.controller.js": 1772514735953,
+  "controller/App.controller.js.map": 1772535754304,
+  "model/models-dbg.js": 1772514735953,
+  "model/models.js.map": 1772535754305,
+  "Component-dbg.js": 1772514735949,
+  "i18n/i18n.properties": 1772514735949,
+  "Component-preload.js": 1772535754384,
+  "Component-preload.js.map": 1772535754384,
+  "view/uploadView.view.xml": 1772515952944,
+  "view/App.view.xml": 1772514735957,
+  "css/style.css": 1772514735957,
+  "index.html": 1772514735949
+}
