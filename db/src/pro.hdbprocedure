@@ -1,0 +1,17 @@
+PROCEDURE "pro"(
+    IN id INTEGER,
+    IN Name NVARCHAR(100),
+    IN Roll INTEGER,
+    IN Class INTEGER 
+)
+   LANGUAGE SQLSCRIPT
+   SQL SECURITY INVOKER
+--    DEFAULT SCHEMA <default_schema_name>
+   AS
+BEGIN
+   /*************************************
+       Write your procedure logic
+   *************************************/
+   INSERT INTO "MY_STUDENTS_STUDENTS"(ID, NAME, ROLL, CLASS)
+          VALUES(:id, :Name, :Roll, :Class);
+END
