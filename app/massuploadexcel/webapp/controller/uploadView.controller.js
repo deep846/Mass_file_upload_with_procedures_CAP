@@ -1,7 +1,8 @@
 sap.ui.define([
     "sap/ui/core/mvc/Controller",
-    "sap/m/MessageToast"
-], (Controller, MessageToast) => {
+    "sap/m/MessageToast",
+     "sap/m/MessageBox"
+], (Controller, MessageToast,MessageBox) => {
     "use strict";
 
     return Controller.extend("massuploadexcel.controller.uploadView", {
@@ -81,8 +82,8 @@ sap.ui.define([
 
                     sap.m.MessageToast.show("Uploaded successfully");
                 } catch (oError) {
+                    MessageBox.error(`File upload failed : ${oError.message}`);
                     console.error("Upload failed:", oError);
-                    sap.m.MessageBox.error("File upload failed");
                 }
             };
 
